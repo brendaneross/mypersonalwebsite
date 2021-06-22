@@ -7,10 +7,24 @@ body {
 }
 
 a {
-  color: inherit;
+  color: #4472BA;
   text-decoration: none;
+}
+
+a:visited {
+  color: #AC413A;
+  text-decoration: none;
+}
+
+a:hover, a:focus {
+  text-decoration: underline;
 }
 
 * {
   box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+  display: block;
 }
