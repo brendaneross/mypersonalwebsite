@@ -50,3 +50,12 @@
 .lightText {
     color: #666;
 }
+
+.navBar {
+    padding: 1rem;
+}
+
+.navBar .logo {
+    width: 4rem !important;
+    height: 4rem !important;
+}
