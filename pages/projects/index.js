@@ -39,7 +39,7 @@ export default function Home({ allProjectsData }) {
                     {allProjectsData.map(({ id, date, title, blurb, stack }) => (
                         <li className={utilStyles.listItem} key={id}>
                             <Link href={`/projects/${id}`}>
-                                <a>{title}</a>
+                                {title}
                             </Link>
                             <br />
                             <p>{blurb}</p>

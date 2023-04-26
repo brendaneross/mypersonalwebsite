@@ -38,20 +38,20 @@ export default function Simple() {
                     />
                     <HStack spacing={8} alignItems={'center'} justifyContent={'flex-end'}>
                         <Link href="/">
-                            <a><Logo /></a>
+                            <Logo />
                         </Link>
                         <Flex alignItems={'center'}
                               display={{ md: 'block', sm: 'none' }}
                         >
                             <Link href="/projects">
-                                <a>Projects</a>
+                                Projects
                             </Link>
                         </Flex>
                         <Flex alignItems={'center'}
                               display={{ md: 'block', sm: 'none' }}
                         >
                             <Link href="/posts">
-                                <a>Blog</a>
+                                Blog
                             </Link>
                         </Flex>
                     </HStack>
